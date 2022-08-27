@@ -1,0 +1,4 @@
+
+GET      /health                      controllers.HomeController.health
+GET     /welcome/:name/:usn             controllers.HomeController.welcome(name:String,usn:Int)
+POST     /sayHello                        controllers.HomeController.sayHello
